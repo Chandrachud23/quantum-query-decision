@@ -1,0 +1,9 @@
+"""IBM Quantum credentials for hardware runs. Copy to hardware.py and fill in.
+
+hardware.py is gitignored. Environment variables IBM_QUANTUM_TOKEN and
+IBM_CLOUD_INSTANCE override these if set.
+"""
+
+IBM_QUANTUM_TOKEN = "YOUR_IBM_QUANTUM_TOKEN_HERE"
+IBM_CLOUD_INSTANCE = "YOUR_IBM_CLOUD_CRN_HERE"
+HARDWARE_BACKEND = "ibm_fez"

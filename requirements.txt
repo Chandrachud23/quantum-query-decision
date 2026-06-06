@@ -1,0 +1,16 @@
+# --- Core planner (fidelity model, cut decision, islands, shots) ---
+# Pure Python; this is all that demo.py and the qqc/ package need.
+networkx>=3.0
+
+# --- Experiment suite (experiments/*.py) ---
+# Versions below are the ones the committed results were produced with.
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+qiskit==2.3.0                  # circuits, transpiler
+qiskit-aer==0.17.2            # noisy simulation + Aer primitives
+qiskit-ibm-runtime==0.45.1   # FakeFez/FakeMarrakesh/FakeTorino calibration + real HW
+qiskit-addon-cutting==0.10.0  # real cut + QPD reconstruction
+
+# --- Tests ---
+pytest>=8.0
