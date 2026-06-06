@@ -1,0 +1,30 @@
+{
+  "widths": [
+    3,
+    3
+  ],
+  "shots": 4096,
+  "rows": [
+    {
+      "device": "ibm_fez",
+      "p_2q": 0.00532,
+      "P_whole": 0.0129,
+      "P_factorized": 0.5503,
+      "gain": 42.5
+    },
+    {
+      "device": "ibm_marrakesh",
+      "p_2q": 0.00583,
+      "P_whole": 0.0137,
+      "P_factorized": 0.6702,
+      "gain": 49.0
+    },
+    {
+      "device": "ibm_kingston",
+      "p_2q": 0.00654,
+      "P_whole": 0.0081,
+      "P_factorized": 0.7231,
+      "gain": 89.7
+    }
+  ]
+}

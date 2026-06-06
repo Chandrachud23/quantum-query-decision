@@ -1,0 +1,49 @@
+{
+  "shots": 8192,
+  "subsearch_success": {
+    "4": 0.6559,
+    "2": 0.2556,
+    "6": 0.0171,
+    "3": 0.8252,
+    "8": 0.0049,
+    "5": 0.1713
+  },
+  "rows": [
+    {
+      "n": 4,
+      "monolithic": 0.6559,
+      "factor_2groups": 0.0653,
+      "factor_width3": null
+    },
+    {
+      "n": 6,
+      "monolithic": 0.0171,
+      "factor_2groups": 0.6809,
+      "factor_width3": 0.6809
+    },
+    {
+      "n": 8,
+      "monolithic": 0.0049,
+      "factor_2groups": 0.4302,
+      "factor_width3": null
+    },
+    {
+      "n": 9,
+      "monolithic": null,
+      "factor_2groups": 0.1123,
+      "factor_width3": 0.5619
+    },
+    {
+      "n": 10,
+      "monolithic": null,
+      "factor_2groups": 0.0293,
+      "factor_width3": null
+    },
+    {
+      "n": 12,
+      "monolithic": null,
+      "factor_2groups": 0.0003,
+      "factor_width3": 0.4637
+    }
+  ]
+}

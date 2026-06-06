@@ -1,0 +1,103 @@
+{
+  "cross_device": [
+    {
+      "device": "FakeFez",
+      "p_2q": 0.005560490401575872,
+      "region": 56,
+      "routing_pen_n5": 2.18,
+      "plan": "factorize"
+    },
+    {
+      "device": "FakeMarrakesh",
+      "p_2q": 0.0072286665017376,
+      "region": 138,
+      "routing_pen_n5": 2.61,
+      "plan": "factorize"
+    },
+    {
+      "device": "FakeTorino",
+      "p_2q": 0.0071925901773092354,
+      "region": 78,
+      "routing_pen_n5": 2.56,
+      "plan": "factorize"
+    }
+  ],
+  "generality": {
+    "pearson": 0.9944405846692617,
+    "spearman": 0.8117225864930513,
+    "rows": [
+      {
+        "class": "search",
+        "n": 3,
+        "routing_pen": 0.05,
+        "pred_log10F": -0.129,
+        "meas_log10F": -0.154,
+        "verdict": "routes cheaply"
+      },
+      {
+        "class": "search",
+        "n": 4,
+        "routing_pen": 0.34,
+        "pred_log10F": -0.611,
+        "meas_log10F": -0.446,
+        "verdict": "routes cheaply"
+      },
+      {
+        "class": "search",
+        "n": 5,
+        "routing_pen": 2.18,
+        "pred_log10F": -1.529,
+        "meas_log10F": -1.437,
+        "verdict": "routing-dominated"
+      },
+      {
+        "class": "qaoa",
+        "n": 3,
+        "routing_pen": 0.01,
+        "pred_log10F": -0.045,
+        "meas_log10F": -0.03,
+        "verdict": "routes cheaply"
+      },
+      {
+        "class": "qaoa",
+        "n": 4,
+        "routing_pen": 0.03,
+        "pred_log10F": -0.089,
+        "meas_log10F": -0.001,
+        "verdict": "routes cheaply"
+      },
+      {
+        "class": "qaoa",
+        "n": 5,
+        "routing_pen": 0.04,
+        "pred_log10F": -0.14,
+        "meas_log10F": -0.088,
+        "verdict": "routes cheaply"
+      },
+      {
+        "class": "ghz",
+        "n": 3,
+        "routing_pen": 0.0,
+        "pred_log10F": -0.023,
+        "meas_log10F": -0.02,
+        "verdict": "routes cheaply"
+      },
+      {
+        "class": "ghz",
+        "n": 4,
+        "routing_pen": 0.0,
+        "pred_log10F": -0.034,
+        "meas_log10F": -0.027,
+        "verdict": "routes cheaply"
+      },
+      {
+        "class": "ghz",
+        "n": 5,
+        "routing_pen": 0.0,
+        "pred_log10F": -0.046,
+        "meas_log10F": -0.03,
+        "verdict": "routes cheaply"
+      }
+    ]
+  }
+}

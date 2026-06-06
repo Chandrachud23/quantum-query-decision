@@ -3,4 +3,4 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 configs/hardware.py
-experiments/output/
+experiments/output/*.log

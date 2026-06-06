@@ -1,0 +1,16 @@
+[
+  {
+    "n": 2,
+    "w": 1,
+    "iters": 1,
+    "n_cuts": 2,
+    "overhead": 81.0,
+    "P_ideal": 1.0,
+    "P_intact": 0.9548,
+    "P_cut": 0.9652,
+    "recon_abs_err": 0.0348,
+    "F_intact": 0.9548,
+    "F_cut": 0.9652,
+    "seconds": 2.1
+  }
+]

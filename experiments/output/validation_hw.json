@@ -1,0 +1,141 @@
+{
+  "backend": "ibm_fez",
+  "is_hw": true,
+  "pearson": 0.9759350303477116,
+  "spearman": 0.9636363636363635,
+  "rows": [
+    {
+      "n": 3,
+      "iters": 1,
+      "marks": 1,
+      "P_ideal": 0.7812,
+      "marked_set": [
+        0
+      ],
+      "n2_dev": 19,
+      "pred_log10F": -0.09,
+      "meas_log10F": -0.069,
+      "meas_std": 0.002
+    },
+    {
+      "n": 3,
+      "iters": 2,
+      "marks": 1,
+      "P_ideal": 0.9453,
+      "marked_set": [
+        0
+      ],
+      "n2_dev": 39,
+      "pred_log10F": -0.141,
+      "meas_log10F": -0.089,
+      "meas_std": 0.007
+    },
+    {
+      "n": 4,
+      "iters": 1,
+      "marks": 1,
+      "P_ideal": 0.4727,
+      "marked_set": [
+        0
+      ],
+      "n2_dev": 37,
+      "pred_log10F": -0.178,
+      "meas_log10F": -0.046,
+      "meas_std": 0.003
+    },
+    {
+      "n": 4,
+      "iters": 2,
+      "marks": 1,
+      "P_ideal": 0.9084,
+      "marked_set": [
+        0
+      ],
+      "n2_dev": 75,
+      "pred_log10F": -0.304,
+      "meas_log10F": -0.14,
+      "meas_std": 0.003
+    },
+    {
+      "n": 5,
+      "iters": 1,
+      "marks": 1,
+      "P_ideal": 0.2583,
+      "marked_set": [
+        0
+      ],
+      "n2_dev": 128,
+      "pred_log10F": -0.512,
+      "meas_log10F": -0.356,
+      "meas_std": 0.013
+    },
+    {
+      "n": 5,
+      "iters": 2,
+      "marks": 1,
+      "P_ideal": 0.6024,
+      "marked_set": [
+        0
+      ],
+      "n2_dev": 262,
+      "pred_log10F": -0.926,
+      "meas_log10F": -0.681,
+      "meas_std": 0.014
+    },
+    {
+      "n": 6,
+      "iters": 1,
+      "marks": 1,
+      "P_ideal": 0.1348,
+      "marked_set": [
+        0
+      ],
+      "n2_dev": 304,
+      "pred_log10F": -1.22,
+      "meas_log10F": -0.715,
+      "meas_std": 0.042
+    },
+    {
+      "n": 4,
+      "iters": 1,
+      "marks": 2,
+      "P_ideal": 0.7812,
+      "marked_set": [
+        0,
+        1
+      ],
+      "n2_dev": 54,
+      "pred_log10F": -0.238,
+      "meas_log10F": -0.106,
+      "meas_std": 0.01
+    },
+    {
+      "n": 5,
+      "iters": 1,
+      "marks": 2,
+      "P_ideal": 0.4727,
+      "marked_set": [
+        0,
+        1
+      ],
+      "n2_dev": 195,
+      "pred_log10F": -0.727,
+      "meas_log10F": -0.489,
+      "meas_std": 0.02
+    },
+    {
+      "n": 6,
+      "iters": 1,
+      "marks": 2,
+      "P_ideal": 0.2583,
+      "marked_set": [
+        0,
+        1
+      ],
+      "n2_dev": 467,
+      "pred_log10F": -1.625,
+      "meas_log10F": -0.858,
+      "meas_std": 0.04
+    }
+  ]
+}

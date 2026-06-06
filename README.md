@@ -17,6 +17,7 @@ qqc/factorize.py        Separability test, factorized cost, strategy choice
 qqc/predicates.py       SQL predicates -> matching sets -> amplitude-amplification oracles
 qqc/islands.py          Low-noise island detection from calibration
 experiments/            Runnable experiments (see table below) and FakeFez calibration
+experiments/output/     Generated tables, JSON results, and hardware-run outputs
 configs/                IBM credentials (hardware.py, gitignored; see hardware.py.example)
 tests/                  Pure-Python tests for the planner internals
 demo.py                 Whole/cut/factorize decision example (no quantum deps)

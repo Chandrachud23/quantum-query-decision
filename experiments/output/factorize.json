@@ -1,0 +1,31 @@
+{
+  "backend": "fake_fez",
+  "is_hw": false,
+  "n": 8,
+  "nA": 4,
+  "nB": 4,
+  "whole_line": {
+    "iters": 8,
+    "n2": 8441,
+    "P": 0.0034
+  },
+  "whole_best": {
+    "iters": 8,
+    "n2": 6729,
+    "P": 0.0035
+  },
+  "factorized": {
+    "itersA": 3,
+    "itersB": 3,
+    "n2_max": 111,
+    "P_A": 0.6652,
+    "P_B": 0.6633,
+    "P": 0.4412
+  },
+  "gain_vs_line": 129.1,
+  "gain_vs_best": 124.6,
+  "oracle_calls": {
+    "monolithic": 8,
+    "factorized": 6
+  }
+}

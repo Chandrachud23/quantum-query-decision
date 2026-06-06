@@ -1,0 +1,104 @@
+{
+  "backend": "ibm_fez",
+  "is_hw": true,
+  "shots": 4096,
+  "rows": [
+    {
+      "name": "Q6 (3+3)",
+      "sql": "discount=5 AND quantity=2",
+      "kind": "sep",
+      "n": 6,
+      "widths": [
+        3,
+        3
+      ],
+      "selectivity": 0.0156,
+      "nM": 1,
+      "verified": true,
+      "P_whole": 0.0149,
+      "P_factorized": 0.62,
+      "gain": 41.6
+    },
+    {
+      "name": "Q6 (4+4)",
+      "sql": "discount=9 AND quantity<2",
+      "kind": "sep",
+      "n": 8,
+      "widths": [
+        4,
+        4
+      ],
+      "selectivity": 0.0078,
+      "nM": 2,
+      "verified": true,
+      "P_whole": 0.0059,
+      "P_factorized": 0.306,
+      "gain": 52.2
+    },
+    {
+      "name": "Q6 (3+3+3)",
+      "sql": "discount=5 AND quantity=2 AND shipdate=3",
+      "kind": "sep",
+      "n": 9,
+      "widths": [
+        3,
+        3,
+        3
+      ],
+      "selectivity": 0.002,
+      "nM": 1,
+      "verified": true,
+      "P_whole": 0.002,
+      "P_factorized": 0.4653,
+      "gain": 238.2
+    },
+    {
+      "name": "Q6 (2+2+2)",
+      "sql": "discount=1 AND quantity=2 AND shipdate=0",
+      "kind": "sep",
+      "n": 6,
+      "widths": [
+        2,
+        2,
+        2
+      ],
+      "selectivity": 0.0156,
+      "nM": 1,
+      "verified": true,
+      "P_whole": 0.0129,
+      "P_factorized": 0.0137,
+      "gain": 1.1
+    },
+    {
+      "name": "Q1 (broad)",
+      "sql": "shipdate <= 6  (broad aggregation scan)",
+      "kind": "broad",
+      "n": 3,
+      "widths": [
+        3
+      ],
+      "selectivity": 0.875,
+      "nM": 7,
+      "verified": true,
+      "P_whole": 0.4316,
+      "P_factorized": 0.4343,
+      "gain": 1.0
+    },
+    {
+      "name": "XEQ (colA=colB)",
+      "sql": "colA = colB  (cross-column join key)",
+      "kind": "xeq",
+      "n": 4,
+      "widths": [
+        2,
+        2
+      ],
+      "selectivity": 0.25,
+      "nM": 4,
+      "verified": true,
+      "P_whole": 0.1973,
+      "P_factorized": 0.25,
+      "note": "factorization invalid: naive plan correct only by chance 1/2^w"
+    }
+  ]
+}

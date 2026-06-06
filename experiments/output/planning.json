@@ -1,0 +1,117 @@
+{
+  "routing": [
+    {
+      "n": 3,
+      "n2_synth": 24,
+      "n2_routed": 39,
+      "swap_factor": 1.62,
+      "routing_penalty": 0.049,
+      "rel_drop": 0.1067
+    },
+    {
+      "n": 4,
+      "n2_synth": 84,
+      "n2_routed": 175,
+      "swap_factor": 2.08,
+      "routing_penalty": 0.336,
+      "rel_drop": 0.5387
+    },
+    {
+      "n": 5,
+      "n2_synth": 288,
+      "n2_routed": 842,
+      "swap_factor": 2.92,
+      "routing_penalty": 2.179,
+      "rel_drop": 0.9934
+    },
+    {
+      "n": 6,
+      "n2_synth": 1008,
+      "n2_routed": 2119,
+      "swap_factor": 2.1,
+      "routing_penalty": 4.327,
+      "rel_drop": 1.0
+    },
+    {
+      "n": 7,
+      "n2_synth": 1488,
+      "n2_routed": 3621,
+      "swap_factor": 2.43,
+      "routing_penalty": 9.69,
+      "rel_drop": 1.0
+    },
+    {
+      "n": 8,
+      "n2_synth": 2160,
+      "n2_routed": 6313,
+      "swap_factor": 2.92,
+      "routing_penalty": 19.452,
+      "rel_drop": 1.0
+    }
+  ],
+  "selectivity": [
+    {
+      "query": "point lookup (key=v)",
+      "source": "OLTP, 1/N",
+      "selectivity": 0.03125,
+      "routing_penalty": 2.18,
+      "plan": "factorize"
+    },
+    {
+      "query": "TPC-H Q6 (revenue)",
+      "source": "TPC-H [Dreseler'20]",
+      "selectivity": 0.02,
+      "routing_penalty": 2.18,
+      "plan": "factorize"
+    },
+    {
+      "query": "kNN similarity",
+      "source": "ANN-Benchmarks",
+      "selectivity": 0.06,
+      "routing_penalty": 1.59,
+      "plan": "whole (hard)"
+    },
+    {
+      "query": "TPC-H Q1 (aggregation)",
+      "source": "TPC-H",
+      "selectivity": 0.98,
+      "routing_penalty": 0.44,
+      "plan": "whole"
+    }
+  ],
+  "scaling": {
+    "F_width3": 0.7428480711131755,
+    "rows": [
+      {
+        "n": 4,
+        "F_monolithic": 0.2452,
+        "F_width3_groups": 0.5518,
+        "F_two_groups": 0.9298
+      },
+      {
+        "n": 6,
+        "F_monolithic": 0.0144,
+        "F_width3_groups": 0.5518,
+        "F_two_groups": 0.5518
+      },
+      {
+        "n": 8,
+        "F_monolithic": 0.0035,
+        "F_width3_groups": 0.4099,
+        "F_two_groups": 0.0601
+      },
+      {
+        "n": 10,
+        "F_monolithic": 0.0009,
+        "F_width3_groups": 0.3045,
+        "F_two_groups": 0.0009
+      },
+      {
+        "n": 12,
+        "F_monolithic": 0.0002,
+        "F_width3_groups": 0.3045,
+        "F_two_groups": 0.0002
+      }
+    ]
+  }
+}
