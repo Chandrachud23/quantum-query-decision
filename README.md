@@ -1,7 +1,7 @@
 # Quantum Query Decision
 
-Code for the paper *Fidelity-Aware Execution of Quantum Search Queries: Choosing Between
-Circuit Cutting and Predicate Factorization on NISQ Hardware*.
+Code for the paper *Deciding When to Cut, Factorize, or Run a Search Query Whole
+on NISQ Hardware*.
 
 A simulation-free, closed-form criterion that reads compiled gate counts and device
 calibration to choose how to run a quantum search query: whole, cut, or factorized.
